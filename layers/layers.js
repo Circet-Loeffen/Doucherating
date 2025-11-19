@@ -58,7 +58,7 @@ lyr_OSMStandard_0.setVisible(true);lyr_LuchtfotoActueelOrtho8cmRGB_1.setVisible(
 var layersList = [lyr_OSMStandard_0,lyr_LuchtfotoActueelOrtho8cmRGB_1,lyr_Tennisvereniging_2];
 lyr_Tennisvereniging_2.set('fieldAliases', {'id': 'id', 'Clubnaam': 'Clubnaam', 'Score': 'Score', 'Atribuut 1': 'Atribuut 1', 'Atribuut 2': 'Atribuut 2', 'Atribuut 3': 'Atribuut 3', 'Atribuut 4': 'Atribuut 4', 'Atribuut 5': 'Atribuut 5', 'Atribuut 6': 'Atribuut 6', });
 lyr_Tennisvereniging_2.set('fieldImages', {'id': 'TextEdit', 'Clubnaam': 'TextEdit', 'Score': 'TextEdit', 'Atribuut 1': 'TextEdit', 'Atribuut 2': 'TextEdit', 'Atribuut 3': 'TextEdit', 'Atribuut 4': 'TextEdit', 'Atribuut 5': 'TextEdit', 'Atribuut 6': '', });
-lyr_Tennisvereniging_2.set('fieldLabels', {'id': 'hidden field', 'Clubnaam': 'header label - always visible', 'Score': 'inline label - always visible', 'Atribuut 1': 'inline label - always visible', 'Atribuut 2': 'inline label - always visible', 'Atribuut 3': 'inline label - always visible', 'Atribuut 4': 'inline label - always visible', 'Atribuut 5': 'inline label - always visible', 'Atribuut 6': 'inline label - always visible', });
+lyr_Tennisvereniging_2.set('fieldLabels', {'id': 'hidden field', 'Clubnaam': 'header label - always visible', 'Score': 'header label - always visible', 'Atribuut 1': 'inline label - visible with data', 'Atribuut 2': 'inline label - visible with data', 'Atribuut 3': 'inline label - visible with data', 'Atribuut 4': 'inline label - visible with data', 'Atribuut 5': 'inline label - visible with data', 'Atribuut 6': 'inline label - visible with data', });
 lyr_Tennisvereniging_2.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
