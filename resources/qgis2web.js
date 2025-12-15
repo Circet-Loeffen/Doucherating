@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([615145.250982, 6756321.955595, 615416.643074, 6756465.188827], map.getSize());
+map.getView().fit([614777.451397, 6759670.831356, 615374.911309, 6759957.508101], map.getSize());
 
 //full zooms only
 map.getView().setProperties({constrainResolution: true});
@@ -1070,7 +1070,7 @@ let measuring = false;
 //layer search
 
 var searchLayer = new SearchLayer({
-    layer: lyr_Doucherating_3,
+    layer: lyr_Doucherating_2,
     colName: 'Clubnaam',
     zoom: 10,
     collapsed: true,
