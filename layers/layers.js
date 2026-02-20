@@ -22,6 +22,7 @@ var lyr_LuchtfotoActueelOrtho8cmRGB_1 = new ol.layer.Tile({
                             })),
                             title: 'Luchtfoto Actueel Ortho 8cm RGB',
                             popuplayertitle: 'Luchtfoto Actueel Ortho 8cm RGB',
+                            type: '',
                             opacity: 1.000000,
                             
                             
